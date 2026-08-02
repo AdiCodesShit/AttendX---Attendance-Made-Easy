@@ -11,3 +11,4 @@ dist/
 .venv/
 *.pyc
 .streamlit/secrets.toml
+.agents/
