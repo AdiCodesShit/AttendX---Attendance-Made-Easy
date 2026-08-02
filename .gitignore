@@ -1,0 +1,13 @@
+node_modules
+.env
+.vscode
+.*.pyc
+.DS_Store
+__pycache__/
+venv/
+.streamlit/
+dist/
+.claude/
+.venv/
+*.pyc
+.streamlit/secrets.toml
