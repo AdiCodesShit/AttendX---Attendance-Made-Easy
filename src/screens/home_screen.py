@@ -8,6 +8,24 @@ def home_screen():
     header_home()
     style_background_home()
     style_base_layout()
+
+    st.markdown(f"""
+    <h2 style="
+        text-align: center;
+        font-family: 'Poppins', 'Segoe UI', sans-serif;
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 1.15;
+        color: #F5F0E6;
+        letter-spacing: 0.3px;
+        max-width: 700px;
+        margin: 0 auto 2rem auto;
+        opacity: 0.95;
+    ">
+        Face And Voice Assisted<br>
+        <span style="color: #E8985E;">Attendance System</span>
+    </h2>
+    """, unsafe_allow_html=True)
     
 
     col1, col2 = st.columns(2, gap="large")
