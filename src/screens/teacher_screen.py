@@ -47,7 +47,7 @@ def login_teacher(teacher_username, teacher_password):
     return False
 
 def teacher_screen():
-    style_background_dashboard()
+    # style_background_dashboard()
     style_base_layout_dashboard()
     style_teacher_page()
 
