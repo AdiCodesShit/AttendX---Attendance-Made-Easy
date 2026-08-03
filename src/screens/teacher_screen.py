@@ -1,5 +1,5 @@
 import streamlit as st
-from src.ui.base_layout import style_background_dashboard
+from src.ui.base_layout import style_background_dashboard, style_teacher_page
 from src.ui.base_layout import style_base_layout_dashboard
 from src.components.header import header_dashboard
 from src.components.footers import footer_dashboard
@@ -49,6 +49,7 @@ def login_teacher(teacher_username, teacher_password):
 def teacher_screen():
     style_background_dashboard()
     style_base_layout_dashboard()
+    style_teacher_page()
 
     if "teacher_data" in st.session_state:
         teacher_dashboard()    
